@@ -4,7 +4,11 @@ public class Question_3 {
 	public static void main(String[] args) {
 		
 		Integer[] num = {3,5,6};
+		Integer[] num1 = {1,5,3};
+		//This Test will have an output of True
 		System.out.println(isSorted(num));
+		//This Test will have an output of False
+		System.out.println(isSorted(num1));
 
 	}
 	public static boolean isSorted(Integer[] array) {
